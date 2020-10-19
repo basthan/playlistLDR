@@ -16,14 +16,20 @@
 	</style>
 </head>
 <body>
-	<audio src="" controls id="audioPlayer">
-		Sorry, your browser doesn't support html5!
-	</audio>
-	<ul id="playlist">
-		<li class="current-song"><a href="https://dts-data-saver.s3.amazonaws.com/music/LetMeLoveYouLikeAWoman.mp3">Let Me Love You Like A Woman</a></li>
-		<li><a href="https://dts-data-saver.s3.amazonaws.com/music/QueenOfDisaster.mp3">Queen Of Disaster</a></li>
-		<li><a href="https://dts-data-saver.s3.amazonaws.com/music/YoungandBeautiful.mp3">Young and Beautiful</a></li>
-	</ul>
+	<table style="width:100%">
+		<tr><th>
+			<audio src="" controls id="audioPlayer">
+				Sorry, your browser doesn't support html5!
+			</audio>
+		</th></tr>
+		<tr><th>
+			<ul id="playlist">
+				<li class="current-song"><a href="https://dts-data-saver.s3.amazonaws.com/music/LetMeLoveYouLikeAWoman.mp3">Let Me Love You Like A Woman</a></li>
+				<li><a href="https://dts-data-saver.s3.amazonaws.com/music/QueenOfDisaster.mp3">Queen Of Disaster</a></li>
+				<li><a href="https://dts-data-saver.s3.amazonaws.com/music/YoungandBeautiful.mp3">Young and Beautiful</a></li>
+			</ul>
+		</th></tr>
+	</table>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript">
 		audioPlayer();
