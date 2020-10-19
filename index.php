@@ -20,9 +20,9 @@
 		Sorry, your browser doesn't support html5!
 	</audio>
 	<ul id="playlist">
-		<li class="current-song"><a href="music/LetMeLoveYouLikeAWoman.mp3">Let Me Love You Like A Woman</a></li>
-		<li><a href="music/QueenOfDisaster.mp3">Queen Of Disaster</a></li>
-		<li><a href="music/YoungandBeautiful.mp3">Young and Beautiful</a></li>
+		<li class="current-song"><a href="https://dts-data-saver.s3.amazonaws.com/music/LetMeLoveYouLikeAWoman.mp3">Let Me Love You Like A Woman</a></li>
+		<li><a href="https://dts-data-saver.s3.amazonaws.com/music/QueenOfDisaster.mp3">Queen Of Disaster</a></li>
+		<li><a href="https://dts-data-saver.s3.amazonaws.com/music/YoungandBeautiful.mp3">Young and Beautiful</a></li>
 	</ul>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript">
